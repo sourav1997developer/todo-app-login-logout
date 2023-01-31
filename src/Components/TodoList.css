@@ -1,0 +1,44 @@
+.container{
+    min-height: 100vh;
+    margin-top: 2rem;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+input, textarea, button {
+    padding: .8rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: .5rem 0;
+    font-size: 1rem;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background-color: #9772FB;
+    color: #fff;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #7e56ec;
+}
+
+@media only screen and (max-width: 600px){
+    .container form{
+        width: 95%;
+    }
+}
